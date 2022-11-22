@@ -2,28 +2,24 @@ body {
   font-family: "Roboto", sans-serif;
   color: #212121;
 }
+:root {
+  --color: #ffffff;
+  --color2: #2f303a;
+  --color3: #2196f3;
+  --pixel: 14px;
+}
 footer {
-  background: #2f303a;
+  background: var(--color2);
 }
 address {
-  color: #ffffff;
+  color: var(--color);
   font-style: normal;
-  font-size: 14px;
+  font-size: var(pixel);
   line-height: 1.5;
-}
-address a {
-  font-size: 14px;
-  line-height: 1.5;
-}
-address a:hover {
-  color: #2196f3;
-}
-address a:focus {
-  color: #2196f3;
 }
 h1 {
-  color: #ffffff;
-  background: #2f303a;
+  color: var(--color);
+  background: var(--color2);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -38,42 +34,48 @@ h2 {
 }
 h3 {
   font-weight: 700;
-  font-size: 14px;
+  font-size: var(pixel);
   line-height: 1.14;
 }
 p {
   color: #757575;
   font-weight: 400;
-  font-size: 14px;
+  font-size: var(pixel);
   line-height: 1.7;
 }
 a {
   color: #757575;
   text-decoration: none;
 }
-nav a {
+.black-link {
   color: #212121;
   font-weight: 500;
-  font-size: 14px;
+  font-size: var(pixel);
   line-height: 1.14;
 }
-nav a:hover {
-  color: #2196f3;
+.black-link:hover {
+  color: var(--color3);
 }
-nav a:focus {
-  color: #2196f3;
+.black-link:focus {
+  color: var(--color3);
 }
 .social-links a {
   color: #757575;
   font-weight: 500;
-  font-size: 14px;
+  font-size: var(pixel);
   line-height: 1.14;
 }
 .social-links a:hover {
-  color: #2196f3;
+  color: var(--color3);
 }
 .social-links a:focus {
-  color: #2196f3;
+  color: var(--color3);
+}
+.address-link:hover {
+  color: var(--color3);
+}
+.address-link:focus {
+  color: var(--color3);
 }
 .stil {
   font-family: Raleway, sans-serif;
@@ -82,11 +84,11 @@ nav a:focus {
   line-height: 1.19;
 }
 .web {
-  color: #2196f3;
+  color: var(--color3);
 }
-.stiltwo {
-  font-family: Raleway, sans-serif;
-  color: #ffffff;
+.stil-two {
+  font-family: "Raleway", sans-serif;
+  color: var(--color);
   font-size: 26px;
   line-height: 1.19;
 }
@@ -94,21 +96,21 @@ nav a:focus {
   background: #f5f4fa;
 }
 .push:hover {
-  background: #2196f3;
-  color: #ffffff;
+  background: var(--color3);
+  color: var(--color);
   cursor: pointer;
 }
 .push:focus {
-  background: #2196f3;
-  color: #ffffff;
+  background: var(--color3);
+  color: var(--color);
 }
 .wall {
   background: #f5f4fa;
 }
 .man {
-  background: #ffffff;
+  background: var(--color);
   text-align: center;
 }
-.secendpush {
+.secend-push {
   text-align: center;
 }
