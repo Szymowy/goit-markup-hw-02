@@ -1,23 +1,22 @@
-body {
-  font-family: "Roboto", sans-serif;
-  color: #212121;
-}
 :root {
   --color: #ffffff;
+  --color1: #212121;
   --color2: #2f303a;
   --color3: #2196f3;
+  --color4: #f5f4fa;
+  --color5:  #757575;
+  --color6: #000000;
   --pixel: 14px;
 }
-footer {
-  background: var(--color2);
+body {
+  font-family: "Roboto", sans-serif;
+  background: var(--color);
+  color: var(--color1);
 }
-address {
-  color: var(--color);
-  font-style: normal;
-  font-size: var(pixel);
-  line-height: 1.5;
+.wall {
+  background: var(--color4);
 }
-h1 {
+.main {
   color: var(--color);
   background: var(--color2);
   font-weight: 900;
@@ -26,32 +25,29 @@ h1 {
   text-transform: uppercase;
   text-align: center;
 }
-h2 {
+.skil {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
 }
-h3 {
+.box {
   font-weight: 700;
   font-size: var(pixel);
   line-height: 1.14;
 }
-p {
-  color: #757575;
+.boxs {
+  color: var(--color5)
   font-weight: 400;
   font-size: var(pixel);
   line-height: 1.7;
 }
-a {
-  color: #757575;
-  text-decoration: none;
-}
 .black-link {
-  color: #212121;
+  color: inherit;
   font-weight: 500;
   font-size: var(pixel);
   line-height: 1.14;
+  text-decoration: none;
 }
 .black-link:hover {
   color: var(--color3);
@@ -59,17 +55,29 @@ a {
 .black-link:focus {
   color: var(--color3);
 }
-.social-links a {
-  color: #757575;
+.social-links {
+  color: var(--color5)
   font-weight: 500;
   font-size: var(pixel);
   line-height: 1.14;
+  text-decoration: none;
 }
-.social-links a:hover {
+.social-links:hover {
   color: var(--color3);
 }
-.social-links a:focus {
+.social-links:focus {
   color: var(--color3);
+}
+.post {
+  color: #ffffff;
+  font-style: normal;
+}
+.address-link {
+  color: var(--color5)
+  font-style: normal;
+  font-size: var(pixel);
+  line-height: 1.5;
+  text-decoration: none;
 }
 .address-link:hover {
   color: var(--color3);
@@ -79,9 +87,13 @@ a {
 }
 .stil {
   font-family: Raleway, sans-serif;
-  color: #000000;
+  color: var(--color6);
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
+}
+.stil:focus {
+  color: var(--color3);
 }
 .web {
   color: var(--color3);
@@ -93,7 +105,7 @@ a {
   line-height: 1.19;
 }
 .push {
-  background: #f5f4fa;
+  background: var(--color4);
 }
 .push:hover {
   background: var(--color3);
@@ -104,8 +116,8 @@ a {
   background: var(--color3);
   color: var(--color);
 }
-.wall {
-  background: #f5f4fa;
+.wall-secend {
+  background: var(--color2);
 }
 .man {
   background: var(--color);
