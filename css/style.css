@@ -4,7 +4,7 @@
   --color2: #2f303a;
   --color3: #2196f3;
   --color4: #f5f4fa;
-  --color5:  #757575;
+  --color5: #757575;
   --color6: #000000;
   --pixel: 14px;
 }
@@ -37,7 +37,7 @@ body {
   line-height: 1.14;
 }
 .boxs {
-  color: var(--color5)
+  color: var(--color5);
   font-weight: 400;
   font-size: var(pixel);
   line-height: 1.7;
@@ -56,7 +56,7 @@ body {
   color: var(--color3);
 }
 .social-links {
-  color: var(--color5)
+  color: var(--color5);
   font-weight: 500;
   font-size: var(pixel);
   line-height: 1.14;
@@ -73,7 +73,7 @@ body {
   font-style: normal;
 }
 .address-link {
-  color: var(--color5)
+  color: var(--color5);
   font-style: normal;
   font-size: var(pixel);
   line-height: 1.5;
@@ -103,6 +103,7 @@ body {
   color: var(--color);
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 .push {
   background: var(--color4);
